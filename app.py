@@ -98,7 +98,7 @@ def main():
 	if choice == "Home":
 		st.markdown(descriptive_message_temp,unsafe_allow_html=True)
 		st.markdown(descriptive_message_temp2,unsafe_allow_html=True)
-		st.image(load_image('C:/web app/gizi.png'), use_column_width=True)
+		st.image(load_image('gizi.png'), use_column_width=True)
 		st.markdown(html,unsafe_allow_html=True)
 	
 	elif choice == "Prediksi":
